@@ -64,7 +64,7 @@ function App() {
               <div className="container">
                 <Routes>
                   <Route
-                    path="/weatherApp/"
+                    path="/weatherapp/"
                     element={
                       <Main
                         setQuery={setQuery}
@@ -75,29 +75,29 @@ function App() {
                     }
                   />
                   <Route
-                    path="/weatherApp/registration"
+                    path="/weatherapp/registration"
                     element={<Registration />}
                   />
                   <Route
-                    path="/weatherApp/registration/details"
+                    path="/weatherapp/registration/details"
                     element={<Details />}
                   />
                   <Route
-                    path="/weatherApp/registration/codeauth"
+                    path="/weatherapp/registration/codeauth"
                     element={<CodeAuth />}
                   />
-                  <Route path="/weatherApp/signIn" element={<SingIn />} />
+                  <Route path="/weatherapp/signIn" element={<SingIn />} />
                   <Route
-                    path="/weatherApp/signIn/forgot-password"
+                    path="/weatherapp/signIn/forgot-password"
                     element={<ForgotPaassword />}
                   />
                   <Route
-                    path="/weatherApp/signIn/forgot-password/code"
+                    path="/weatherapp/signIn/forgot-password/code"
                     element={<ForgotPasswordCode />}
                   />
-                  <Route path="/weatherApp/signIn/forgot-password/newPassword" />
+                  <Route path="/weatherapp/signIn/forgot-password/newPassword" />
                   <Route
-                    path="/weatherApp/settings"
+                    path="/weatherapp/settings"
                     element={
                       <Settings
                         setUnits={setUnits}
@@ -108,16 +108,16 @@ function App() {
                     }
                   />
                   <Route
-                    path="/weatherApp/location"
+                    path="/weatherapp/location"
                     element={<MapLocation />}
                   />
-                  <Route path="/weatherApp/terms" element={<Terms />} />
+                  <Route path="/weatherapp/terms" element={<Terms />} />
                   <Route
                     path="/weatherApp/privacyPolicy"
                     element={<PrivacyPolicy />}
                   />
                   <Route path="*" element={<NotFound />} />
-                  <Route path="/weatherApp/report" element={<Report />} />
+                  <Route path="/weatherapp/report" element={<Report />} />
                 </Routes>
               </div>
 
