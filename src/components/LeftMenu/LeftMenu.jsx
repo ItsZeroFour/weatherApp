@@ -12,9 +12,9 @@ const LeftMenu = () => {
     <div className="left-menu">
       <ul>
         {[
-          { icon: faTableCellsLarge, url: "/weatherapp/" },
-          { icon: faLocationDot, url: "/weatherapp/location" },
-          { icon: faGear, url: "/weatherapp/settings" },
+          { icon: faTableCellsLarge, url: "/weatherApp/" },
+          { icon: faLocationDot, url: "/weatherApp/location" },
+          { icon: faGear, url: "/weatherApp/settings" },
         ].map((item, index) => (
           <li key={index + Math.random()}>
             <Link to={item.url}>
