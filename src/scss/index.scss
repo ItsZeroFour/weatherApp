@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Habanera", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: var(--color-light-black);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Havanera-light", sans-serif;
+}
+
+p,
+a,
+label {
+  font-family: "Habanera-light", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.code-auth__link {
+  letter-spacing: 5px;
+  color: var(--color-dark-gray);
+  margin-top: 3rem;
+  transition: var(--transition);
+
+  &:hover {
+    letter-spacing: 7px;
+  }
+}

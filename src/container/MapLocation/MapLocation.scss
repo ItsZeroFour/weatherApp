@@ -1,0 +1,38 @@
+.map__conatiner {
+  margin-left: 2rem;
+  padding-top: 2rem;
+
+  @media (max-width: 1500px) {
+    h2 {
+      margin-left: 5rem;
+    }
+
+    h2 {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 739px) {
+    text-align: center;
+  }
+}
+
+.map__location {
+  width: 100% !important;
+  height: 70vh !important;
+  margin-top: 1rem !important;
+  border-radius: var(--border-radius-md) !important;
+
+  @media (max-width: 1500px) {
+    width: 90% !important;
+    margin-left: 5rem;
+  }
+
+  @media (max-width: 1192px) {
+    margin-left: 2rem;
+  }
+
+  @media (max-width: 739px) {
+    margin-left: 0;
+  }
+}

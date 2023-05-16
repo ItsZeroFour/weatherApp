@@ -1,0 +1,30 @@
+.left-menu {
+  position: fixed;
+  left: 0;
+  top: 30%;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+
+    background: var(--color-blue);
+    border-top-right-radius: var(--border-radius-md);
+    border-bottom-right-radius: var(--border-radius-md);
+
+    padding: 1rem;
+
+    li {
+      padding: 1.2rem 1rem 1.2rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+
+      a {
+        color: var(--color-white);
+      }
+    }
+  }
+
+  @media (max-width: 1193px) {
+    display: none;
+  }
+}

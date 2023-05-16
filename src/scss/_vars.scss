@@ -1,0 +1,23 @@
+:root {
+  --color-blue: #7ca9ff;
+  --color-white: #fff;
+  --color-light-black: #242734;
+  --color-dark-theme: #1e1b1b;
+  --color-pink: #fe72a6;
+  --color-yellow: #ffb968;
+  --color-green: #00dfc0;
+  --color-gray: #b1cadf;
+  --color-dark-gray: #d0d0d0;
+
+  --gradient-blue: radial-gradient(
+    circle,
+    rgba(0, 210, 252, 1) 0%,
+    rgba(124, 169, 255, 1) 100%
+  );
+
+  --border-radius-sm: 0.5rem;
+  --border-radius-md: 1rem;
+  --border-radius-lg: 1.5rem;
+
+  --transition: all 0.2s ease-in-out;
+}

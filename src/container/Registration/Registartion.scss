@@ -1,0 +1,154 @@
+.registartion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registartion__form {
+  display: flex;
+  margin-top: 5rem;
+  padding: 1rem;
+
+  img {
+    width: 500px;
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+    @media (max-width: 908px) {
+      display: none;
+    }
+  }
+
+  .registration__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 3rem;
+
+    .registration__inputs {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+    }
+
+    input {
+      border: 1px solid var(--color-gray);
+      border-radius: var(--border-radius-sm);
+      padding: 1rem;
+      margin-top: 1rem;
+      width: 100%;
+
+      @media (max-width: 1033px) {
+        width: 20rem;
+      }
+
+      @media (max-width: 359px) {
+        width: 15rem;
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 285px) {
+        width: 12rem;
+      }
+    }
+
+    button {
+      background: var(--color-blue);
+      margin-top: 2rem;
+      padding: 1rem;
+      color: var(--color-white);
+      border-radius: var(--border-radius-sm);
+    }
+
+    @media (max-width: 908px) {
+      margin-left: 0;
+    }
+
+    @media (max-height: 597px) {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-height: 597px) {
+    margin-top: 2rem;
+  }
+}
+
+.registration__text {
+  line-height: 1.3;
+
+  h3 {
+    font-size: 1.3rem;
+    color: var(--color-dark-gray);
+
+    @media (max-width: 1033px) {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 359px) {
+      font-size: 1rem;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+
+    @media (max-width: 1033px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 359px) {
+      font-size: 1.2rem;
+      width: 10rem;
+    }
+  }
+
+  a {
+    color: var(--color-blue);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.registration__bottom-text {
+  width: 25rem;
+  margin-top: 2rem;
+  color: var(--color-dark-gray);
+
+  a {
+    color: var(--color-blue);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 1033px) {
+    width: 20rem;
+  }
+
+  @media (max-width: 359px) {
+    width: 15rem;
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 285px) {
+    width: 12rem;
+  }
+}
+
+.sign-in__text {
+  text-align: right;
+  color: var(--color-gray);
+  margin-top: 1rem;
+
+  a {
+    color: var(--color-blue);
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,155 @@
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-gray);
+  padding-top: 2rem;
+
+  @media (max-width: 449px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main__date {
+  h1 {
+    font-size: 5rem;
+    color: var(--color-blue);
+  }
+
+  h3 {
+    font-family: "Habanera-SBold", sans-serif;
+    font-size: 1rem;
+    color: var(--color-light-black);
+  }
+
+  @media (max-width: 884px) {
+    display: none;
+  }
+}
+
+.main__switch-theme {
+  margin-left: 15rem;
+
+  svg {
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+  }
+}
+
+.main__account {
+  img {
+    width: 60px;
+    height: 60px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: var(--border-radius-md);
+  }
+
+  svg {
+    margin-right: 1rem;
+  }
+
+  @media (max-width: 449px) {
+    display: none;
+  }
+}
+
+.main__form {
+  display: flex;
+}
+
+.main__form-search {
+  margin-left: 20rem;
+  margin-top: 1rem;
+
+  input {
+    background: transparent;
+    color: var(--color-black);
+    border-radius: var(--border-radius-sm);
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+
+    &::-webkit-input-placeholder {
+      color: var(--color-gray);
+      font-style: italic;
+    }
+
+    &::-moz-placeholder {
+      color: var(--color-gray);
+      font-style: italic;
+    }
+
+    &:-ms-input-placeholder {
+      color: var(--color-gray);
+      font-style: italic;
+    }
+
+    &::-ms-input-placeholder {
+      color: var(--color-gray);
+      font-style: italic;
+    }
+
+    &::placeholder {
+      color: var(--color-gray);
+      font-style: italic;
+    }
+
+    @media (max-width: 545px) {
+      width: 100%;
+    }
+  }
+
+  button {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: var(--border-radius-sm);
+    background: var(--color-blue);
+    color: var(--color-white);
+
+    @media (max-width: 545px) {
+      display: none;
+    }
+  }
+
+  svg {
+    @media (max-width: 545px) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1332px) {
+    margin-left: 10rem;
+  }
+
+  @media (max-width: 953px) {
+    margin-left: 5rem;
+  }
+
+  @media (max-width: 884px) {
+    margin-left: 0;
+  }
+}
+
+.main__form-locate {
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+
+  a {
+    color: var(--color-gray);
+  }
+
+  @media (max-width: 545px) {
+    display: none;
+  }
+}
+
+.main__login-button {
+  svg {
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+    color: var(--color-blue);
+  }
+}

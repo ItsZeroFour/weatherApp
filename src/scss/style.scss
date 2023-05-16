@@ -1,0 +1,22 @@
+// ========================= MAIN STYLES =========================
+@import "./fonts";
+@import "./vars";
+@import "./reset";
+@import "./index.scss";
+// ========================== Container ==========================
+@import "../container/Main/Main.scss";
+@import "../container/Registration/Registartion.scss";
+@import "../container/Registration/Details/Details.scss";
+@import "../container/Registration/CodeAuth/CodeAuth.scss";
+@import "../container/Registration/SignIn/SignIn.scss";
+@import "../container/Registration/SignIn/ForgotPassword/ForgotPassword.scss";
+@import "../container/Registration/SignIn/ForgotPassword/ForgotPasswordCode/ForgotPasswordCode.scss";
+@import "../container/MapLocation/MapLocation.scss";
+// ========================== Components =========================
+@import "../components/NotFound/NotFound.scss";
+@import "../components/Report/Report.scss";
+@import "../components/LeftMenu/LeftMenu.scss";
+@import "../components/Settings/Settings.scss";
+@import "../components/Layout/Layout.scss";
+@import "../components/header/Header.scss";
+@import "../components/BurgerMenu/BurgerMenu.scss";
