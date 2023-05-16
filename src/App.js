@@ -75,29 +75,29 @@ function App() {
                     }
                   />
                   <Route
-                    path="/weatherapp/registration"
+                    path="/weatherAppgit/registration"
                     element={<Registration />}
                   />
                   <Route
-                    path="/weatherapp/registration/details"
+                    path="/weatherAppgit/registration/details"
                     element={<Details />}
                   />
                   <Route
-                    path="/weatherapp/registration/codeauth"
+                    path="/weatherAppgit/registration/codeauth"
                     element={<CodeAuth />}
                   />
-                  <Route path="/weatherapp/signIn" element={<SingIn />} />
+                  <Route path="/weatherAppgit/signIn" element={<SingIn />} />
                   <Route
-                    path="/weatherapp/signIn/forgot-password"
+                    path="/weatherAppgit/signIn/forgot-password"
                     element={<ForgotPaassword />}
                   />
                   <Route
-                    path="/weatherapp/signIn/forgot-password/code"
+                    path="/weatherAppgit/signIn/forgot-password/code"
                     element={<ForgotPasswordCode />}
                   />
-                  <Route path="/weatherapp/signIn/forgot-password/newPassword" />
+                  <Route path="/weatherAppgit/signIn/forgot-password/newPassword" />
                   <Route
-                    path="/weatherapp/settings"
+                    path="/weatherAppgit/settings"
                     element={
                       <Settings
                         setUnits={setUnits}
@@ -108,16 +108,16 @@ function App() {
                     }
                   />
                   <Route
-                    path="/weatherapp/location"
+                    path="/weatherAppgit/location"
                     element={<MapLocation />}
                   />
-                  <Route path="/weatherapp/terms" element={<Terms />} />
+                  <Route path="/weatherAppgit/terms" element={<Terms />} />
                   <Route
-                    path="/weatherApp/privacyPolicy"
+                    path="/weatherAppgit/privacyPolicy"
                     element={<PrivacyPolicy />}
                   />
                   <Route path="*" element={<NotFound />} />
-                  <Route path="/weatherapp/report" element={<Report />} />
+                  <Route path="/weatherAppgit/report" element={<Report />} />
                 </Routes>
               </div>
 

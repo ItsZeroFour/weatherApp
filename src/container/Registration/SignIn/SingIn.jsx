@@ -60,7 +60,7 @@ const SingIn = () => {
             onChange={(event) => setPassword(event.target.value)}
             value={password}
           />
-          <Link to="/signIn/forgot-password">Forgot password</Link>
+          <Link to="/weatherApp/signIn/forgot-password">Forgot password</Link>
         </div>
 
         {email !== "" && password !== "" ? (

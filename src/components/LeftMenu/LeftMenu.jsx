@@ -1,9 +1,6 @@
 import {
-  faCalendarDays,
-  faChartLine,
   faGear,
   faLocationDot,
-  faSquarePollVertical,
   faTableCellsLarge,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,9 +12,9 @@ const LeftMenu = () => {
     <div className="left-menu">
       <ul>
         {[
-          { icon: faTableCellsLarge, url: "/" },
-          { icon: faLocationDot, url: "/location" },
-          { icon: faGear, url: "/settings" },
+          { icon: faTableCellsLarge, url: "/weatherApp/" },
+          { icon: faLocationDot, url: "/weatherApp/location" },
+          { icon: faGear, url: "/weatherApp/settings" },
         ].map((item, index) => (
           <li key={index + Math.random()}>
             <Link to={item.url}>

@@ -110,7 +110,7 @@ const ForgotPassword = () => {
           {!accountIsRegistered && (
             <p className="account-not-registered">
               An account with such an email was not found! Enter your email or{" "}
-              <Link to="/registration">register</Link>
+              <Link to="/weatherApp/registration">register</Link>
             </p>
           )}
 
