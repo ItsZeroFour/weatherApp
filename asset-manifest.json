@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/weatherApp/static/css/main.506c85db.css",
-    "main.js": "/weatherApp/static/js/main.1198ef86.js",
-    "static/media/signIn.png": "/weatherApp/static/media/signIn.aff61fe4bab86eeeae82.png",
-    "static/media/forgotpassword.png": "/weatherApp/static/media/forgotpassword.12382aae825403bd0df3.png",
-    "static/media/Mobil-login.png": "/weatherApp/static/media/Mobil-login.9aea22942873290dc2c2.png",
-    "static/media/Checklist.png": "/weatherApp/static/media/Checklist.7174ac6b23429219e680.png",
-    "static/media/Habanera-ExtraBold.woff2": "/weatherApp/static/media/Habanera-ExtraBold.4d48d79d7f9797272389.woff2",
-    "static/media/noon.png": "/weatherApp/static/media/noon.ab591de88b5e952ca27b.png",
-    "static/media/Habanera-Bold.woff2": "/weatherApp/static/media/Habanera-Bold.ab367b8bd5cf3575ceab.woff2",
-    "static/media/dayclock.png": "/weatherApp/static/media/dayclock.b7641ebaa390b45b0f25.png",
-    "static/media/Habanera-SemiBold.woff2": "/weatherApp/static/media/Habanera-SemiBold.e25740054810eb855038.woff2",
-    "static/media/Habanera-Medium.woff2": "/weatherApp/static/media/Habanera-Medium.4076678be018dabb98c7.woff2",
-    "static/media/Habanera-Light.woff2": "/weatherApp/static/media/Habanera-Light.05f8ab5f966e75c35afa.woff2",
-    "static/media/sunrise.png": "/weatherApp/static/media/sunrise.123e48a5f327849eb24e.png",
-    "static/media/sunset.png": "/weatherApp/static/media/sunset.ce86232db72f651adfd1.png",
-    "index.html": "/weatherApp/index.html",
-    "main.506c85db.css.map": "/weatherApp/static/css/main.506c85db.css.map",
-    "main.1198ef86.js.map": "/weatherApp/static/js/main.1198ef86.js.map"
+    "main.css": "/weatherapp/static/css/main.901e14e2.css",
+    "main.js": "/weatherapp/static/js/main.67059c6a.js",
+    "static/media/signIn.png": "/weatherapp/static/media/signIn.aff61fe4bab86eeeae82.png",
+    "static/media/forgotpassword.png": "/weatherapp/static/media/forgotpassword.12382aae825403bd0df3.png",
+    "static/media/Mobil-login.png": "/weatherapp/static/media/Mobil-login.9aea22942873290dc2c2.png",
+    "static/media/Checklist.png": "/weatherapp/static/media/Checklist.7174ac6b23429219e680.png",
+    "static/media/Habanera-ExtraBold.woff2": "/weatherapp/static/media/Habanera-ExtraBold.4d48d79d7f9797272389.woff2",
+    "static/media/noon.png": "/weatherapp/static/media/noon.ab591de88b5e952ca27b.png",
+    "static/media/Habanera-Bold.woff2": "/weatherapp/static/media/Habanera-Bold.ab367b8bd5cf3575ceab.woff2",
+    "static/media/dayclock.png": "/weatherapp/static/media/dayclock.b7641ebaa390b45b0f25.png",
+    "static/media/Habanera-SemiBold.woff2": "/weatherapp/static/media/Habanera-SemiBold.e25740054810eb855038.woff2",
+    "static/media/Habanera-Medium.woff2": "/weatherapp/static/media/Habanera-Medium.4076678be018dabb98c7.woff2",
+    "static/media/Habanera-Light.woff2": "/weatherapp/static/media/Habanera-Light.05f8ab5f966e75c35afa.woff2",
+    "static/media/sunrise.png": "/weatherapp/static/media/sunrise.123e48a5f327849eb24e.png",
+    "static/media/sunset.png": "/weatherapp/static/media/sunset.ce86232db72f651adfd1.png",
+    "index.html": "/weatherapp/index.html",
+    "main.901e14e2.css.map": "/weatherapp/static/css/main.901e14e2.css.map",
+    "main.67059c6a.js.map": "/weatherapp/static/js/main.67059c6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.506c85db.css",
-    "static/js/main.1198ef86.js"
+    "static/css/main.901e14e2.css",
+    "static/js/main.67059c6a.js"
   ]
 }
