@@ -28,16 +28,16 @@ const BurgerMenu = () => {
           <ul>
             <li>
               <FontAwesomeIcon icon={faTableCellsLarge} />
-              <Link to="/weatherApp/">Dashboard</Link>
+              <Link to="/weatherapp/">Dashboard</Link>
             </li>
 
             <li>
               <FontAwesomeIcon icon={faLocationDot} />
-              <Link to="/weatherApp/settings">Settings</Link>
+              <Link to="/weatherapp/settings">Settings</Link>
             </li>
             <li>
               <FontAwesomeIcon icon={faGear} />
-              <Link to="/weatherApp/location">Location</Link>
+              <Link to="/weatherapp/location">Location</Link>
             </li>
           </ul>
         </div>

@@ -14,7 +14,7 @@ const NotFound = () => {
           something is broken, report a problem.
         </p>
         <div className="btns">
-          <Link to="/weatherApp/">return home</Link>
+          <Link to="/weatherapp/">return home</Link>
           <Link to="/report">report a problem</Link>
         </div>
       </div>

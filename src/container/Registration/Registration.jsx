@@ -108,7 +108,7 @@ const Registration = () => {
             <h3>Start for free</h3>
             <h1>Sign up to WeatherApp🚪.</h1>
             <h3>
-              Already a member? <Link to="/weatherApp/signin">Log in</Link>
+              Already a member? <Link to="/weatherapp/signin">Log in</Link>
             </h3>
           </div>
 
@@ -159,12 +159,12 @@ const Registration = () => {
           </div>
 
           <p className="sign-in__text">
-            Already have an account? <Link to="/weatherApp/signIn">Sign In</Link>
+            Already have an account? <Link to="/weatherapp/signIn">Sign In</Link>
           </p>
 
           <p className="registration__bottom-text">
-            Please read <Link to="/weatherApp/privacyPolicy">Privacy policy</Link> and{" "}
-            <Link to="/weatherApp/terms">Terms of service</Link> before proceeding with
+            Please read <Link to="/weatherapp/privacyPolicy">Privacy policy</Link> and{" "}
+            <Link to="/weatherapp/terms">Terms of service</Link> before proceeding with
             your registration.
           </p>
         </div>

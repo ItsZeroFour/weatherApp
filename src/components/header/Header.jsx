@@ -89,21 +89,21 @@ const Header = ({ setQuery }) => {
         </div>
 
         <div className="main__form-locate">
-          <Link to="/weatherApp/location">
+          <Link to="/weatherapp/location">
             <FontAwesomeIcon icon={faLocationDot} />
           </Link>
         </div>
       </form>
       {!localStorage.getItem("userEmail") ? (
         <div className="main__login-button">
-          <Link to="/weatherApp/registration">
+          <Link to="/weatherapp/registration">
             <FontAwesomeIcon icon={faRightToBracket} />
           </Link>
         </div>
       ) : user?.picture !== "" ? (
         <div className="main__account">
           <FontAwesomeIcon icon={faBell} />
-          <Link to="/weatherApp/settings">
+          <Link to="/weatherapp/settings">
             <img src={user?.picture} alt="avatar" />
           </Link>
         </div>
