@@ -64,7 +64,7 @@ function App() {
               <div className="container">
                 <Routes>
                   <Route
-                    path="/weatherApp"
+                    path="/weatherApp/"
                     element={
                       <Main
                         setQuery={setQuery}
