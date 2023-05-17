@@ -139,7 +139,7 @@ const Settings = ({ setUnits, units, setLanguage, language, children }) => {
               </button>
             </div>
           ) : !localStorage.getItem("userEmail") ? (
-            <p>
+            <p className="login-text">
               {language === "russian"
                 ? "Пожалуйста, войдиет в аккаунт"
                 : "Please log in"}
@@ -199,7 +199,7 @@ const Settings = ({ setUnits, units, setLanguage, language, children }) => {
               </div>
             </div>
           ) : !localStorage.getItem("userEmail") ? (
-            <p>
+            <p className="login-text">
               {language === "russian"
                 ? "Пожалуйста, войдите в аккаунт"
                 : "Please log in"}
